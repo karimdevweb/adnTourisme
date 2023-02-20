@@ -1,0 +1,34 @@
+{
+  "name": "dashboard_adn_tourisme_vuejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@splidejs/vue-splide": "^0.6.12",
+    "axios": "^1.2.4",
+    "chart.js": "^4.2.0",
+    "jquery": "^3.6.3",
+    "leaflet": "^1.9.3",
+    "lottie-vuejs": "^0.4.0",
+    "vue": "^3.2.45",
+    "vue-chartjs": "^5.2.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^4.0.13",
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-carousel": "^0.2.9",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
