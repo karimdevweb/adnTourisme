@@ -29,7 +29,7 @@ CORS(app, resources={r"/*" : {'origin':"*"}})
 
 df = pd.read_csv('adn_csv/df_renamed_adn.zip' ,index_col=False ).drop(columns= ['Unnamed: 0'])
 
-df = df.head(500)
+
 
 
 
