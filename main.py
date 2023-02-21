@@ -27,7 +27,7 @@ CORS(app, resources={r"/*" : {'origin':"*"}})
 
 
 
-df = pd.read_csv('adn_csv/df_renamed_adn.csv' ,index_col=False ).drop(columns= ['Unnamed: 0'])
+df = pd.read_csv('adn_csv/df_renamed_adn.zip' ,index_col=False ).drop(columns= ['Unnamed: 0'])
 
 
 
@@ -353,4 +353,5 @@ def getAllinfo():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
